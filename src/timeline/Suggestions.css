@@ -1,0 +1,43 @@
+.suggestions {
+    margin-top: 5vh;
+}
+
+.suggestions_title {
+    color: grey;
+    font-weight: bold;
+    font-size: 3vh;
+    margin-left: 2vw;
+}
+
+.suggestions_users {
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.suggestions_username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.username_info {
+    margin-left: 0.5vw;
+}
+
+.relation {
+    font-size: small;
+    color: grey;
+}
+
+.suggestions_followbtn {
+    background: 0;
+    color: rgb(0, 187, 255);
+    border: 0;
+}
+
+.suggestions_followbtn:hover {
+    cursor: pointer;
+    color: white;
+}
