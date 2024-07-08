@@ -46,3 +46,18 @@
     position: fixed;
     bottom: 1vh;
 }
+
+.logout_btn{
+    /* font-size: ; */
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.211);
+    padding: 1.5vh 1vw;
+    border: 0;
+}
+
+.logout_btn:hover{
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.411);
+}

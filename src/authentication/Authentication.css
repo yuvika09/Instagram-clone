@@ -1,0 +1,40 @@
+.authentication {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0vw 10vh;
+}
+
+.left_auth {
+    flex: 0.5;
+    text-align: center;
+}
+
+.right_auth {
+    flex: 0.5;
+    text-align: center;
+}
+
+.left_auth>img {
+    width: 27vw;
+    margin-top: 7vh;
+    margin-left: 17vw;
+}
+
+.auth_more {
+    border: 2px solid grey;
+    padding: 3vh;
+    margin: 1vw 11vw;
+}
+
+.auth_more>span>button {
+    border: 0;
+    color: #0095f6;
+    background: 0;
+    font-weight: bold;
+}
+
+.auth_more>span>button:hover {
+    cursor: pointer;
+}
+

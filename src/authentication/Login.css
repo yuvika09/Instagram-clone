@@ -1,0 +1,42 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    padding: 7vh;
+    margin: 0 11vw;
+    width: 20vw;
+}
+
+.login>img {
+    width: 15vw;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.login>input {
+    background-color: #ffffff24;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 3px;
+    margin: 0.6vh;
+    padding: 1vh;
+    font-size: small;
+}
+
+.login>input:focus {
+    outline: 1px solid grey;
+}
+
+.login>button {
+    padding: 1.3vh;
+    border-radius: 8px;
+    border: 0;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.login>button:hover {
+    cursor: pointer;
+}
